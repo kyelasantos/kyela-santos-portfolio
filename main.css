@@ -2095,8 +2095,8 @@ input, select, textarea {
 			}
 
 			.image.thumb:hover:before {
-				background: url("images/overlay.png"), url("images/overlay.png");
-				opacity: 1.0;
+				background: none;
+				opacity: 0;
 			}
 
 		.image img {
@@ -2633,8 +2633,9 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.918);
-			font-size: 1.35em;
+			color: rgba(255, 255, 255, 0.651);
+			font-size: 1.25em;
+			font-style: italic;
 			line-height: 1.75em;
 			margin: 0;
 			text-align: center;
@@ -3163,7 +3164,7 @@ input, select, textarea {
 			}
 
 				#header h1 {
-					font-size: 1.35em;
+					font-size: 1.25em;
 				}
 
 		/* Footer */
